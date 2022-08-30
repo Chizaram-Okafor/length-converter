@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    /* height: 300px; */
+    /* outline: 5px solid yellow; */
+    /* background-image: url(./img/bg2.jpg); */
+    background-color: rgb(102, 99, 99); 
+    /* background-repeat: no-repeat; */
+    /* background-position: cover; */
+    
+    font-family: sans-serif;
+}
+
+.section-1{
+    width: 100%;
+    margin: auto;
+    /* outline: 5px solid green; */
+    border: 5px solid rgb(156, 156, 160);
+    color: white;
+    background-color: black;
+    /* background-color: rgb(148, 148, 152); */
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 80px;
+    /* text-align: center; */
+}
+
+.section-1 h1{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    /* font-family: sans-serif; */
+}
+
+.buttons{
+    /* outline: 2px solid yellow; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+button{
+    /* outline: 3px solid green; */
+    margin-right: 2rem;
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+    border: 3px solid rgb(156, 156, 160);
+    border-radius: 10px;
+    /* align-items: center; */
+    
+}
+
+.btn{
+    /* outline: 2px solid red; */
+    text-align: center;
+
+}
+
+form{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    /* font-size: 18px; */
+    /* outline: 2px solid yellow; */
+    /* margin-right: 1.2rem; */
+}
+
+form input{
+    width: 25%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 1.2rem;
+
+}
+
+.text #number{
+    /* outline: 2px solid yellow; */
+    border: 3px solid rgb(156, 156, 160);
+    border-radius: 10px;
+}
+
+.convert1{
+    margin-top: 10px;
+    /* outline: 2px solid yellow; */
+}
+
+.convert1 #convert{
+    border: 3px solid rgb(156, 156, 160);
+    border-radius: 10px;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 550px){
+    body{
+         margin: 15px;
+         width: 100%;
+    }
+
+    .section-1{
+        width: 100%;
+        /* outline: 2px solid red; */
+    }
+
+    h1{
+         font-size: 22px;
+    }
+
+    .buttons{
+        /* outline: 2px solid yellow; */
+        width: 100%;
+        /* margin: auto; */
+    }
+
+    button{
+        /* width: 20%; */
+        font-size: 14px;
+        margin-right: 1rem;
+        /* width: 20%; */
+        outline: 2px solid green;
+    }
+}
